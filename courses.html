@@ -1,0 +1,262 @@
+<html lang="en" data-theme="light" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisyUi & tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- title  -->
+    <link rel="website icon" type="png" href="Photo/2.png">
+    <title>Aspire Academic Care</title>
+    <!-- style   -->
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- navbar  -->
+    <div class="fixed backdrop-blur-xl top-0 z-30 right-0 left-0 mx-auto">
+
+
+        <!-- nav 01  -->
+        <div class="navbar w-full hidden lg:flex pt-3">
+            <div class="flex-1">
+                <a href="index.html" class="">
+                    <img src="Photo/2.png" alt="" class="w-12">
+                </a>
+            </div>
+            <div class="flex-none">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="#home" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">HOME</a></li>
+                <li><a href="courses.html" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">ALL COURSES</a></li>
+                <li><a href="#about" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">ABOUT US</a></li>
+                <li><a href="#instructors" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">INSTRUCTORS</a></li>
+                <li><a href="#videos" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">VIDEOS</a></li>
+                <li><a href="#contact" class="btn bg-indigo-800 border-none text-white hover:bg-indigo-800 mx-5 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">CONTACT</a></li>
+              </ul>
+            </div>
+        </div>
+
+
+        <!-- nav 02 -->
+        <div class="navbar lg:hidden w-full flex justify-between">
+            <div class="">
+                <a href="index.html" class="">
+                    <img src="Photo/2.png" alt="" class="w-12">
+                </a>
+            </div>
+            <div class="drawer navbar-end">
+                <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+                <div class="drawer-content">
+                    <label for="my-drawer" class="btn border-2 text-indigo-800 border-indigo-800/40"><i class="fa-solid fa-bars"></i></label>
+                </div> 
+                <div class="drawer-side">
+                    <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+                    <ul class="menu p-4 w-3/4 min-h-full bg-white">
+                        <li><a href="#home" class="text-indigo-800 m-3">HOME</a></li>
+                        <li><a href="courses.html" class="text-indigo-800 m-3">ALL COURSES</a></li>
+                        <li><a href="#about" class="text-indigo-800 m-3">ABOUT US</a></li>
+                        <li><a href="#instructors" class="text-indigo-800 m-3">INSTRUCTORS</a></li>
+                        <li><a href="#videos" class="text-indigo-800 m-3">VIDEOS</a></li>
+                        <li><a href="#contact" class="btn bg-indigo-800 border-none text-white hover:bg-indigo-800 mx-5 m-5">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- hero  -->
+    <div class="hero md:mt-24 mt-20" style="background-image: url(https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <div class="text-sm breadcrumbs">
+                    <ul>
+                      <li><a href="index.html">Home</a></li> 
+                      <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main section  -->
+    <main class="max-w-screen-xl w-full mx-auto">
+
+
+        <!-- main category  -->
+        <div class="p-4 md:p-10 pt-10 pb-10">
+            <div class="container mb-10">
+                <p class="text-indigo-800 tracking-widest font-light py-4">All Courses</p>
+                <p class="font-bold md:text-5xl text-3xl text-black">Our Main <span class="text-indigo-800">Category</span></p>
+            </div>
+            <div class="container grid md:grid-cols-2 gap-y-4 md:gap-x-4 p-4">
+                <a href="#sub-category" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-solid fa-graduation-cap"></i></span>
+                        <p class="md:text-4xl text-2xl font-semibold p-5">HSC</p>
+                    </div>
+                </a>
+                <a href="#sub-category" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-solid fa-graduation-cap"></i></span>
+                        <p class="md:text-4xl text-2xl font-semibold p-5">SSC</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- sub category ssc  -->
+        <div class="p-4 md:p-10 w-full" id="sub-category">
+            <div class="container mb-10">
+                <p class="font-semibold md:text-4xl text-2xl text-black">Our <span class="text-indigo-800">Sub-Category</span></p>
+            </div>
+            <div class="container grid md:grid-cols-3 gap-y-4 md:gap-x-4 p-4">
+                <a href="soon.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-brands fa-leanpub"></i></span>
+                        <p class="md:text-2xl text-xl font-semibold p-5">HSC-science</p>
+                    </div>
+                </a>
+                <a href="soon.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-brands fa-leanpub"></i></span>
+                        <p class="md:text-2xl text-xl font-semibold p-5">HSC-Humanities</p>
+                    </div>
+                </a>
+                <a href="soon.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-brands fa-leanpub"></i></span>
+                        <p class="md:text-2xl text-xl font-semibold p-5">HSC-General</p>
+                    </div>
+                </a>
+                <a href="#ssc-science" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-brands fa-leanpub"></i></span>
+                        <p class="md:text-2xl text-xl font-semibold p-5">SSC-science</p>
+                    </div>
+                </a>
+                <a href="soon.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-brands fa-leanpub"></i></span>
+                        <p class="md:text-2xl text-xl font-semibold p-5">SSC-Humanities</p>
+                    </div>
+                </a>
+                <a href="#ssc-general" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-brands fa-leanpub"></i></span>
+                        <p class="md:text-2xl text-xl font-semibold p-5">SSC-General</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- all courses  -->
+        <div class="p-4 md:p-10 w-full">
+            <div class="container mb-10">
+                <p class="font-bold md:text-5xl text-3xl text-black">All <span class="text-indigo-800">Courses</span></p>
+            </div>
+            <div class="flex flex-col">
+                <!-- ssc science  -->
+                <div class="container mb-10" id="ssc-science">
+                    <p class="font-semibold md:text-3xl text-xl text-black">SSC <span class="text-indigo-800">Science</span> <i class="fa-solid fa-angles-right"></i></p>
+                    <div class="container grid md:grid-cols-3 gap-y-4 md:gap-x-4 p-4 pt-10">
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/438884870_122136678758214576_5150370537594742713_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHmg7Dc8mz-fg7cwF7NX_i9sNFsKRq69o6w0WwpGrr2jjFHbVLfaBplxDQSozI3lAgGq6BlpNQ3JW6K9YOzZLjb&_nc_ohc=espFtBNsX3AAb5rXIym&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfCfaUVIgETr1S-G81QrOdcO5e2Uwop3k8bNUN8llKrarg&oe=662AFC6D" alt="" class="">
+                                <p class="p-3 font-bold text-lg">Physics Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/439639115_122136678824214576_3736119940244913338_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE72IFeKTQIPmXh3qn7kXZAiyUgUpbanI2LJSBSltqcjU-c4Viq9l6IB_3mU6ihJCItl2lezFE-qUg0CxEzc0xe&_nc_ohc=hr8C-j27n1MAb6iFypv&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfAd4nWBlFJKm77WGpkS7AI-9PzgnR6zWbJEN5A-BOHuKw&oe=662B05BC" alt="" class="">
+                                <p class="p-3 font-bold text-lg">Chemistry Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/439631899_122136678884214576_4728134916620053078_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGpZULwSpKy25C7Y_U3jUwfBo-_sz0D6pIGj7-zPQPqkqMrodLFwEEarUSLFNRj1SkZintn4JeTsaOkPwEJoeX2&_nc_ohc=QLn2bFSnXP0Ab63ZfJo&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfBQT0JQ9Ek67ilWAScBCKHq9j7HrsZFedJ3pT0Rad7PYg&oe=662B0571" alt="" class="">
+                                <p class="p-3 font-bold text-lg">Higher Math Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/438864404_122136678854214576_3100917883766980963_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFLb4n-CqgP6x8pjn7c5_z9TEskzzjCnStMSyTPOMKdK-IIZlxTxcvIpMHa8hIkdsUzkuGE-bdarn_NtanJjGhI&_nc_ohc=p-Vypxzh-m4Ab4OsMZz&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfBqzvTBvZr9IhErgR9c--9ra8so6QPNXdfNJrRd_oqatg&oe=662B174B" alt="" class="">
+                                <p class="p-3 font-bold text-lg">Biology Math Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ssc general  -->
+                <div class="container mb-10" id="ssc-general">
+                    <p class="font-semibold md:text-3xl text-xl text-black">SSC <span class="text-indigo-800">General</span> <i class="fa-solid fa-angles-right"></i></p>
+                    <div class="container grid md:grid-cols-3 gap-y-4 md:gap-x-4 p-4 pt-10">
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/438885842_122136678902214576_8966851887902494438_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGWn7WGbwzxepd1cSDYjt3VunYQmp7HQZG6dhCansdBkX4cRKFaPn5HcxLNQ-CzeAElpAbdjfGHYjyDIUhMSWBt&_nc_ohc=m2qacJe2ni0Ab4g9XMJ&_nc_oc=Adi4hLt-Hix7CM4TZEg-ApPYhyYZnrOx02EaO78KRutD4oGVGwzZJdfk5Xeo-YgzQf0&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfCyNCksqnZtlkRrDGREy6tFaSQpt3gQcBp5FqmT8rPJpw&oe=662B222C" alt="" class="">
+                                <p class="p-3 font-bold text-lg">Bangla Second Paper Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/438875696_122136679022214576_9043633495775855331_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH_HNLpnDFF-qcow9J80A8heJlwiijgITx4mXCKKOAhPODErocaqHY-xOOBl-nOd-OE37wk2EopYDxGYP1jGrFF&_nc_ohc=MfZU4OZKwmEAb5fSwBa&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfAzp4IiTsNxSc-oTMDiNvVJ7GWAJIHQ1NGGeStFe_iYZw&oe=662B2436" alt="" class="">
+                                <p class="p-3 font-bold text-lg">English Second Paper Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                        <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                            <div class="">
+                                <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/438874788_122136678926214576_4983597104956150734_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHMlhAKTZqngg1bTbRjGUOkpssGPfYPKHGmywY99g8ocWFIQw1qJucXTpIMn_BuodrrztppcZHzw46z09Y8EQ78&_nc_ohc=chPtEuvCqqwAb5zKdNi&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfB3OK62iGlDwNTvcme1bCxRTjwjKFm_AxgdLtOG5Nc3lQ&oe=662B11A9" alt="" class="">
+                                <p class="p-3 font-bold text-lg">Math Revision Course (Cycle 01)</p>
+                                <p class="px-3 pb-3">Category: SSC</p>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-- footer  -->
+    <footer class="footer footer-center p-4 md:p-10 bg-indigo-800 text-white">
+        <aside>
+            <a href="index.html" class="">
+                <img src="Photo/2.png" alt="" class="w-28">
+            </a>
+            <p class="font-bold text-lg">
+                Aspire Academic Care <br>An online learning platform
+            </p> 
+            <p>Copyright © 2024 - All right reserved</p>
+        </aside> 
+        <nav>
+            <div class="grid grid-flow-col">
+                <a href="https://www.facebook.com/aspirecare.ac?mibextid=ZbWKwL" target="_blank" class="btn bg-transparent text-3xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/groups/213425851857293/" target="_blank" class="btn bg-transparent text-2xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-solid fa-user-group"></i></a>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

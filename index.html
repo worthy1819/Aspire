@@ -1,4 +1,4 @@
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,107 +18,160 @@
 <body>
     <!-- navbar  -->
     <div class="fixed backdrop-blur-xl top-0 z-30 right-0 left-0 mx-auto">
+
+
         <!-- nav 01  -->
         <div class="navbar w-full hidden lg:flex pt-3">
             <div class="flex-1">
-                <a href="" class="">
+                <a href="index.html" class="">
                     <img src="Photo/2.png" alt="" class="w-12">
                 </a>
             </div>
             <div class="flex-none">
               <ul class="menu menu-horizontal px-1">
-                <li><a href="#home" class="hover:text-blue-900 text-blue-500 hover:animate-pulse mt-1">HOME</a></li>
-                <li><a href="#courses" class="hover:text-blue-900 text-blue-500 hover:animate-pulse mt-1">ALL COURSES</a></li>
-                <li><a href="#about" class="hover:text-blue-900 text-blue-500 hover:animate-pulse mt-1">ABOUT US</a></li>
-                <li><a href="#instructors" class="hover:text-blue-900 text-blue-500 hover:animate-pulse mt-1">INSTRUCTORS</a></li>
-                <li><a href="#contact" class="btn bg-blue-500 border-none text-white hover:bg-blue-500 mx-5 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">CONTACT</a></li>
+                <li><a href="#home" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">HOME</a></li>
+                <li><a href="courses.html" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">ALL COURSES</a></li>
+                <li><a href="#about" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">ABOUT US</a></li>
+                <li><a href="#instructors" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">INSTRUCTORS</a></li>
+                <li><a href="#videos" class="hover:text-indigo-500 text-indigo-800 hover:animate-pulse mt-1">VIDEOS</a></li>
+                <li><a href="#contact" class="btn bg-indigo-800 border-none text-white hover:bg-indigo-800 mx-5 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">CONTACT</a></li>
               </ul>
             </div>
         </div>
+
+
         <!-- nav 02 -->
         <div class="navbar lg:hidden w-full flex justify-between">
             <div class="">
-                <a href="" class="">
+                <a href="index.html" class="">
                     <img src="Photo/2.png" alt="" class="w-12">
                 </a>
             </div>
             <div class="drawer navbar-end">
                 <input id="my-drawer" type="checkbox" class="drawer-toggle" />
                 <div class="drawer-content">
-                    <label for="my-drawer" class="btn border-none shadow-lg text-blue-500 shadow-blue-200"><i class="fa-solid fa-bars"></i></label>
+                    <label for="my-drawer" class="btn border-2 text-indigo-800 border-indigo-800/40"><i class="fa-solid fa-bars"></i></label>
                 </div> 
                 <div class="drawer-side">
                     <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-                    <ul class="menu p-4 w-80 min-h-full bg-white">
-                        <li><a href="#home" class="text-blue-500 m-3">HOME</a></li>
-                        <li><a href="#courses" class="text-blue-500 m-3">ALL COURSES</a></li>
-                        <li><a href="#about" class="text-blue-500 m-3">ABOUT US</a></li>
-                        <li><a href="#instructors" class="text-blue-500 m-3">INSTRUCTORS</a></li>
-                        <li><a href="#contact" class="btn bg-blue-500 border-none text-white hover:bg-blue-500 mx-5 m-5">CONTACT</a></li>
+                    <ul class="menu p-4 w-3/4 min-h-full bg-white">
+                        <li><a href="#home" class="text-indigo-800 m-3">HOME</a></li>
+                        <li><a href="courses.html" class="text-indigo-800 m-3">ALL COURSES</a></li>
+                        <li><a href="#about" class="text-indigo-800 m-3">ABOUT US</a></li>
+                        <li><a href="#instructors" class="text-indigo-800 m-3">INSTRUCTORS</a></li>
+                        <li><a href="#videos" class="text-indigo-800 m-3">VIDEOS</a></li>
+                        <li><a href="#contact" class="btn bg-indigo-800 border-none text-white hover:bg-indigo-800 mx-5 m-5">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- hero  -->
-    <div class="mt-24">
+    <div class="md:pt-24 pt-20">
         <div class="">
             <img src="Photo/Cover Aspire.png" alt="">
             <div class="grid md:grid-cols-2 gap-4 p-5 md:px-16">
-                <p class="md:text-6xl font-bold md:p-5 md:px-12 text-2xl md:border-b-0 border-r-0 border-b-2 pb-3 md:border-r-2 border-blue-500"><span class="text-blue-500">Education</span> is one thing no one can take away from you.</p>
+                <p class="md:text-6xl font-bold md:p-5 md:px-12 text-2xl md:border-b-0 border-r-0 border-b-2 pb-3 md:border-r-2 border-indigo-800"><span class="text-indigo-800">Education</span> is one thing no one can take away from you.</p>
                 <p class="flex justify-center items-center md:text-3xl">Education is a key to success and freedom from all the forces is a power and makes a person powerful</p>
             </div>
         </div>
     </div>
+
+
     <!-- main section  -->
     <main class="max-w-screen-xl w-full mx-auto">
+
+
         <!-- category -->
-        <div class="p-10 pt-10 pb-10">
+        <div class="p-4 md:p-10 pt-10 pb-10">
             <div class="container mb-10">
-                <p class="text-blue-500 tracking-widest font-light py-4">CATEGORY</p>
-                <p class="font-bold md:text-5xl text-3xl text-black">Find Your <span class="text-blue-500">Category</span></p>
+                <p class="text-indigo-800 tracking-widest font-light py-4">CATEGORY</p>
+                <p class="font-bold md:text-5xl text-3xl text-black">Find Your <span class="text-indigo-800">Category</span></p>
             </div>
             <div class="container grid md:grid-cols-2 gap-y-4 md:gap-x-4 p-4">
-                <a href="#courses" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-blue-400 text-black border-2 hover:border-0">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-blue-500 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-solid fa-graduation-cap"></i></span>
+                <a href="courses.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-solid fa-graduation-cap"></i></span>
                         <p class="md:text-4xl text-2xl font-semibold p-5">HSC</p>
                     </div>
                 </a>
-                <a href="#courses" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-blue-400 text-black border-2 hover:border-0">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-blue-500 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-solid fa-graduation-cap"></i></span>
+                <a href="courses.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="p-5 flex justify-center items-center">
+                        <span class="md:text-5xl text-3xl p-5 group-hover:bg-indigo-800 group-hover:text-white rounded-full transition-colors duration-300 delay-100"><i class="fa-solid fa-graduation-cap"></i></span>
                         <p class="md:text-4xl text-2xl font-semibold p-5">SSC</p>
                     </div>
                 </a>
             </div>
         </div>
+
+        <!-- popular courses  -->
+        <div class="w-full p-4 md:p-10">
+            <div class="container mb-10">
+                <p class="text-indigo-800 tracking-widest font-light py-4">COURSES</p>
+                <p class="font-bold md:text-5xl text-3xl text-black">Our Most Popular <span class="text-indigo-800">Courses</span></p>
+            </div>
+            <div class="container grid md:grid-cols-3 gap-y-4 md:gap-x-4 p-4">
+                <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="">
+                        <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/438884870_122136678758214576_5150370537594742713_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHmg7Dc8mz-fg7cwF7NX_i9sNFsKRq69o6w0WwpGrr2jjFHbVLfaBplxDQSozI3lAgGq6BlpNQ3JW6K9YOzZLjb&_nc_ohc=espFtBNsX3AAb5rXIym&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfCfaUVIgETr1S-G81QrOdcO5e2Uwop3k8bNUN8llKrarg&oe=662AFC6D" alt="" class="">
+                        <p class="p-3 font-bold text-lg">Physics Revision Course (Cycle 01)</p>
+                        <p class="px-3 pb-3">Category: SSC</p>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="">
+                        <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/439639115_122136678824214576_3736119940244913338_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE72IFeKTQIPmXh3qn7kXZAiyUgUpbanI2LJSBSltqcjU-c4Viq9l6IB_3mU6ihJCItl2lezFE-qUg0CxEzc0xe&_nc_ohc=hr8C-j27n1MAb6iFypv&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfAd4nWBlFJKm77WGpkS7AI-9PzgnR6zWbJEN5A-BOHuKw&oe=662B05BC" alt="" class="">
+                        <p class="p-3 font-bold text-lg">Chemistry Revision Course (Cycle 01)</p>
+                        <p class="px-3 pb-3">Category: SSC</p>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="">
+                        <img src="https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/439631899_122136678884214576_4728134916620053078_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGpZULwSpKy25C7Y_U3jUwfBo-_sz0D6pIGj7-zPQPqkqMrodLFwEEarUSLFNRj1SkZintn4JeTsaOkPwEJoeX2&_nc_ohc=QLn2bFSnXP0Ab63ZfJo&_nc_ht=scontent.fdac20-1.fna&cb_e2o_trans=t&oh=00_AfBQT0JQ9Ek67ilWAScBCKHq9j7HrsZFedJ3pT0Rad7PYg&oe=662B0571" alt="" class="">
+                        <p class="p-3 font-bold text-lg">Higher Math Revision Course (Cycle 01)</p>
+                        <p class="px-3 pb-3">Category: SSC</p>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="m-3 flex justify-center">
+                <a href="courses.html" class="btn bg-indigo-800 text-white hover:bg-indigo-800 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">View All Courses</a>
+            </div>
+        </div>
+
+
         <!-- contact btn  -->
         <div class="w-full p-10" style="background-image: url(https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg); background-repeat: no-repeat; background-size: cover;">
             <div class="text-white">
-                <a href="" class="btn px-10 text-blue-500 mb-2 btn-sm transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300 border-0">Contact</a>
-                <p class="capitalize text-2xl font-semibold md:text-4xl">If you have any query just <span class="text-blue-400">say hello</span></p>
+                <a href="#contact" class="btn px-10 text-indigo-800 mb-2 btn-sm transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300 border-0">Contact</a>
+                <p class="capitalize text-2xl font-semibold md:text-4xl">If you have any query just <span class="text-indigo-400">say hello</span></p>
             </div>
         </div>
+
+
         <!-- about  -->
-        <div class="p-10 pt-10 pb-10">
+        <div class="p-4 md:p-10 pt-10 pb-10">
             <div class="container mb-10">
-                <p class="text-blue-500 tracking-widest font-light py-4">ABOUT US</p>
-                <p class="font-bold md:text-5xl capitalize text-3xl text-black">We make door to <span class="text-blue-500">bright future</span></p>
+                <p class="text-indigo-800 tracking-widest font-light py-4">ABOUT US</p>
+                <p class="font-bold md:text-5xl capitalize text-3xl text-black">We make door to <span class="text-indigo-800">bright future</span></p>
             </div>
             <div class="container grid md:grid-cols-2 gap-y-4 md:gap-x-4 p-4">
-                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-blue-500">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-blue-500"><i class="fa-solid fa-book-open"></i></span>
+                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-indigo-800">
+                    <div class="p-5 flex md:flex-row flex-col">
+                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-indigo-800"><i class="fa-solid fa-book-open"></i></span>
                         <div class="">
                             <p class="md:text-2xl text-xl font-semibold">Education is Power</p>
                             <p class="">The cost of ignorance exceed that of education teaches us how to achieve success</p>
                         </div>
                     </div>
                 </div>
-                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-blue-500">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-blue-500"><i class="fa-solid fa-bolt"></i></span>
+                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-indigo-800">
+                    <div class="p-5 flex md:flex-row flex-col ">
+                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-indigo-800"><i class="fa-solid fa-bolt"></i></span>
                         <div class="">
                             <p class="md:text-2xl text-xl font-semibold">Knowledge for Life</p>
                             <p class="">Education is smart enough to change the human mind positivity your Door to The Future</p>
@@ -127,46 +180,157 @@
                 </div>
             </div>
             <div class="m-3 flex justify-center">
-                <a href="" class="btn bg-blue-500 text-white hover:bg-blue-500 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">Learn More About Us</a>
+                <a href="#about" class="btn bg-indigo-800 text-white hover:bg-indigo-800 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">Learn More About Us</a>
             </div>
         </div>
-        <!-- why choose  -->
-        <div class="pb-20 p-10">
+
+
+        <!-- pricing  -->
+        <div class="w-full md:p-10 p-4">
             <div class="container mb-10">
-                <p class="text-blue-500 tracking-widest font-light py-4">FEATURES</p>
-                <p class="font-bold md:text-5xl capitalize text-3xl text-black">Why choose <span class="text-blue-500">Aspire</span></p>
+                <p class="text-indigo-800 tracking-widest font-light py-4">PRICING</p>
+                <p class="font-bold md:text-5xl capitalize text-3xl text-black">Our Simple <span class="text-indigo-800">Pricing</span></p>
+            </div>
+            <div class="container grid md:grid-cols-3 gap-y-4 md:gap-x-4 p-4">
+                <div class="text-indigo-800 bg-white p-4 rounded group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-600 border-2 hover:border-0">
+                    <div class="border-b-2 border-indigo-800 md:p-5 pb-3">
+                        <p class="md:text-xl text-lg pb-2 font-bold">SSC Science</p>
+                        <p class="text-4xl pb-2">৳1500</p>
+                        <p class="font-thin pb-2">Per Cycle</p>
+                    </div>
+                    <div class="md:p-5 pt-3 pb-3">
+                        <p class=""><i class="fa-solid fa-check"></i> Subjects: Physics, Chemistry, Biology & Higher Math</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Board Question Solve</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Expert Instructors</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Flexible Timing</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Regular Class Text & Supervision</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Cycle Length: Two Months</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Free Guideline</p>
+                    </div>
+                    <div class="">
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="text-indigo-800 bg-white p-4 rounded group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-600 border-2 hover:border-0">
+                    <div class="border-b-2 border-indigo-800 md:p-5 pb-3">
+                        <p class="md:text-xl text-lg pb-2 font-bold">SSC General</p>
+                        <p class="text-4xl pb-2">৳900</p>
+                        <p class="font-thin pb-2">Per Cycle</p>
+                    </div>
+                    <div class="md:p-5 pt-3 pb-3">
+                        <p class=""><i class="fa-solid fa-check"></i> Subjects: Math, English Second Paper & Bangla Second Paper</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Board Question Solve</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Expert Instructors</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Flexible Timing</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Regular Class Text & Supervision</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Cycle Length: Two Months</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Free Guideline</p>
+                    </div>
+                    <div class="">
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="text-indigo-800 bg-white p-4 rounded group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-600 border-2 hover:border-0">
+                    <div class="border-b-2 border-indigo-800 md:p-5 pb-3">
+                        <p class="md:text-xl text-lg pb-2 font-bold">Individual Subjects SSC</p>
+                        <p class="text-4xl pb-2">৳400</p>
+                        <p class="font-thin pb-2">Per Cycle</p>
+                    </div>
+                    <div class="md:p-5 pt-3 pb-3">
+                        <p class=""><i class="fa-solid fa-check"></i> Available Subjects: Physics, Chemistry, Biology, Higher Math & Math</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Board Question Solve</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Expert Instructors</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Flexible Timing</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Regular Class Text & Supervision</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Cycle Length: Two Months</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Free Guideline</p>
+                    </div>
+                    <div class="">
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="text-indigo-800 bg-white p-4 rounded group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-600 border-2 hover:border-0">
+                    <div class="border-b-2 border-indigo-800 md:p-5 pb-3">
+                        <p class="md:text-xl text-lg pb-2 font-bold">Individual Subjects SSC</p>
+                        <p class="text-4xl pb-2">৳300</p>
+                        <p class="font-thin pb-2">Per Cycle</p>
+                    </div>
+                    <div class="md:p-5 pt-3 pb-3">
+                        <p class=""><i class="fa-solid fa-check"></i> Available Subjects: English Second Paper & Bangla Second Paper</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Board Question Solve</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Expert Instructors</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Flexible Timing</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Regular Class Text & Supervision</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Cycle Length: Two Months</p>
+                        <p class=""><i class="fa-solid fa-check"></i> Free Guideline</p>
+                    </div>
+                    <div class="">
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfwnXnO7Bf2zavhtTif56bMEZQeA9WcIO9KS-D9HK3gjKwo9Q%2Fviewform%3Fusp%3Dpp_url%26fbclid%3DIwZXh0bgNhZW0CMTAAAR370L7UWioM98pWAH9Ll_D6eARs9lKs5oxH9ufy1p3C4fWm6p6vsNFwi3o_aem_AZ_4t-xuzV307aPv0l-8DiFv1tb2iWFTH22BZn8rWNZhyaZ3pAPiB1ZYDhp81c2vpYqR-SxAs4zW0fC2NgQRpakE&h=AT225Wy9ykh3tf74AdesUoN6mc4LoqlXkziEBI4yh7SPVlFq16WRrUylFQLCaUmqZT8Ozit5I10-J5Wn8H0_ftJlgUZyHbJzmoZ6mKKw1_40cRnV1Lyff_JiM-SURGaalH_r&__tn__=-UK-R&c[0]=AT0g-3CxJ9I5q_hLSLoWHvG7heyjnTuFkyk8rAU1Eg1aUarP8sKJTqBmrNNJinpbl5fLj015Tck0vRmuZ2ciJpwVIOVvFUj0jphwkLV6R_2xJiuL3u0xHi4aciMHh9BNOouTE6vX3pDhJZXcdZ_0KhJH0EjmxsBZtyJzVehMt-b7gGQRwzvVA-3U0IinPH4VcgQH151zFRxSZKmTlWKa19yDibe2WbXnCgW2M51M-A" class="btn bg-indigo-800 text-white hover:bg-indigo-800 flex justify-center m-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- upcoming events -->
+        <div class="w-full md:p-10 p-4">
+            <div class="container mb-10">
+                <p class="text-indigo-800 tracking-widest font-light py-4">Upcoming Events</p>
+                <p class="font-bold md:text-5xl text-3xl text-black">Our Newest <span class="text-indigo-800">Events</span></p>
+            </div>
+            <div class="container grid gap-y-4 md:gap-x-4 p-4">
+                <a href="courses.html" class="w-full group transition-colors duration-300 delay-100 hover:shadow-xl shadow-indigo-400 text-black border-2 hover:border-0">
+                    <div class="relative">
+                        <img src="https://images.alphacoders.com/132/thumb-1920-1323469.png" alt="" class="object-cover">
+                        <div class="md:absolute inset-0 bg-gray-500/60"></div>
+                        <div class="md:absolute inset-0 flex justify-center items-center flex-col">
+                            <p class="md:text-white font-bold md:text-3xl p-3 text-xl">Event Name</p>
+                            <p class="md:text-white p-2"><i class="fa-regular fa-calendar"></i> Date and time (Online/Offline)</p>
+                            <p class="md:text-white p-2 pb-5">Event Details</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- why choose  -->
+        <div class="pb-20 p-4 md:p-10">
+            <div class="container mb-10">
+                <p class="text-indigo-800 tracking-widest font-light py-4">FEATURES</p>
+                <p class="font-bold md:text-5xl capitalize text-3xl text-black">Why choose <span class="text-indigo-800">Aspire</span></p>
             </div>
             <div class="grid md:grid-cols-2 gap-4">
-                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-blue-500">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-blue-500"><i class="fa-solid fa-book-open"></i></span>
+                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-indigo-100 hover:border-indigo-800">
+                    <div class="p-5 flex md:flex-row flex-col">
+                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-indigo-800"><i class="fa-solid fa-user"></i></span>
                         <div class="">
                             <p class="md:text-2xl text-xl font-semibold">Expert Instructors</p>
                             <p class="">The cost of ignorance exceed that of education teaches us how to achieve success</p>
                         </div>
                     </div>
                 </div>
-                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-blue-500">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-blue-500"><i class="fa-solid fa-bolt"></i></span>
+                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-indigo-100 hover:border-indigo-800">
+                    <div class="p-5 flex md:flex-row flex-col">
+                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-indigo-800"><i class="fa-brands fa-leanpub"></i></span>
                         <div class="">
                             <p class="md:text-2xl text-xl font-semibold">Flexible Learning</p>
                             <p class="">Education is smart enough to change the human mind positivity your Door to The Future</p>
                         </div>
                     </div>
                 </div>
-                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-blue-500">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-blue-500"><i class="fa-solid fa-book-open"></i></span>
+                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-indigo-100 hover:border-indigo-800">
+                    <div class="p-5 flex md:flex-row flex-col">
+                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-indigo-800"><i class="fa-solid fa-headset"></i></span>
                         <div class="">
                             <p class="md:text-2xl text-xl font-semibold">24/7 Strong Support</p>
                             <p class="">The cost of ignorance exceed that of education teaches us how to achieve success</p>
                         </div>
                     </div>
                 </div>
-                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-blue-100 hover:border-blue-500">
-                    <div class="p-5 flex">
-                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-blue-500"><i class="fa-solid fa-bolt"></i></span>
+                <div class="w-full group transition-colors duration-300 delay-100 text-black border-2 border-indigo-100 hover:border-indigo-800">
+                    <div class="p-5 flex md:flex-row flex-col">
+                        <span class="md:text-5xl text-3xl md:p-5 p-2 text-indigo-800"><i class="fa-solid fa-list-check"></i></span>
                         <div class="">
                             <p class="md:text-2xl text-xl font-semibold">Class Tests</p>
                             <p class="">Education is smart enough to change the human mind positivity your Door to The Future</p>
@@ -176,10 +340,12 @@
             </div>
         </div>
     </main>
+
+
     <!-- footer  -->
-    <footer class="footer footer-center p-10 bg-blue-500 text-white">
+    <footer class="footer footer-center p-4 md:p-10 bg-indigo-800 text-white">
         <aside>
-            <a href="" class="">
+            <a href="index.html" class="">
                 <img src="Photo/2.png" alt="" class="w-28">
             </a>
             <p class="font-bold text-lg">
@@ -189,9 +355,8 @@
         </aside> 
         <nav>
             <div class="grid grid-flow-col">
-                <a href="" class="btn bg-transparent text-3xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-brands fa-facebook"></i></a>
-                <a href="" class="btn bg-transparent text-3xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-brands fa-instagram"></i></a>
-                <a href="" class="btn bg-transparent text-3xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-solid fa-user-group"></i></a>
+                <a href="https://www.facebook.com/aspirecare.ac?mibextid=ZbWKwL" target="_blank" class="btn bg-transparent text-3xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/groups/213425851857293/" target="_blank" class="btn bg-transparent text-2xl border-0 text-white hover:bg-transparent transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300"><i class="fa-solid fa-user-group"></i></a>
             </div>
         </nav>
     </footer>
